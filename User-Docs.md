@@ -1,6 +1,6 @@
 # Agave - Beginner Documentation
 
-Eager to get started? This page gices a good introduction in how to get started with Agave
+Eager to get started? This page gives a good introduction on how to get started with Agave
 
 Let's get started with the the turtorial.
 
