@@ -22,9 +22,9 @@ Now that you have Agave install, we are going to get started with Requests.
 
 First, make sure that:
 
-* Request is installed([http://docs.python-requests.org/en/master/user/install/#install](http://docs.python-requests.org/en/master/user/install/#install)
+* Request is installed(http://docs.python-requests.org/en/master/user/install/#install)
 
-* Request is up-to-date([http://docs.python-requests.org/en/master/community/updates/#updates](http://docs.python-requests.org/en/master/community/updates/#updates)
+* Request is up-to-date(http://docs.python-requests.org/en/master/community/updates/#updates)
 
 
 
