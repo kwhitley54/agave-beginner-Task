@@ -6,7 +6,7 @@ Let's get started with the the turtorial.
 
 ## Installing Agave
 
-Installing Agave is is very simmple, start by typing the following in your terminal:
+Installing Agave is very simmple, start by typing the following in your terminal:
 
 Install from PYPI([https://pypi.org](https://pypi.org)):
 ```
