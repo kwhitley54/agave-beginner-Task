@@ -40,7 +40,7 @@ Making a request with Request is very simple, begin by importing the Request mod
 
 ```
 >>> import requests
-'''
+```
 
 ### Running and managing jobs
 
