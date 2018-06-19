@@ -12,12 +12,7 @@ Install from PYPI(https://pypi.org)):
 ```
 pip install agavepy
 ```
-Next, Install from GitHub checkout:
-```
-cd agavepy
-python setup.py install
-```
-
+## Make a Request
 Now that you have Agave install, we are going to get started with Requests.
 
 First, make sure that:
@@ -26,7 +21,25 @@ First, make sure that:
 
 * Request is up-to-date(http://docs.python-requests.org/en/master/community/updates/#updates)
 
+Before we begin to making a request here is some addation information that couldbe useful.
 
+The **Agave Platform** (http://agaveapi.co)) is an open source, science-as-a-service API platform for powering your digital lab. Agave allows you to bring together your public, private, and shared high performance computing (HPC), high throughput computing (HTC), Cloud, and Big Data resources under a single, web-friendly REST API.
 
+* Run code
+* Manage data
+* Collaborate meaningfully
+* Integrate anywhere
+
+The purpose of this documentation is to help you build your own digital lab that allows you to:
+
+* Launch a job
+* Transfer a file/directory
+* Update permission to share a file/directroy
+
+Making a request with Request is very simple, begin by importing the Request module:
+
+```
+>>> import requests
+'''
 
 
