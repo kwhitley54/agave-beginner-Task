@@ -42,8 +42,13 @@ Making a request with Request is very simple, begin by importing the Request mod
 >>> import requests
 ```
 
-### Running and managing jobs
+Next, lets try to get a webpage. For example, let's get GitHub's public timeline:
+```
+>>> r = requests.get('http://api.github.com/events')
+```
+Now, we have a **Response** object called `r`. We can get all the information we need from this object.
 
+Requests' simple API means that all forms of HTTP request are as obvious. 
 
 
 
