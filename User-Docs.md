@@ -44,60 +44,6 @@ Making a request with Request is very simple, begin by importing the Request mod
 
 ### Running and managing jobs
 
-Get a list of jobs the authenticated user had submitted
-```
-agavepy.jobs.list(limit=250, offset=0)
-```
-Parameters:
-* **limit**: The max number of results. (integer)
-* **offset**: The number of records to when returning the results. When paginating results,the page number = ceil(offset/limit)(integer)
 
-Response:
-* Array of JobSummary object
-
-#### JobSummary schema
-```
-{
-  "$id": "http://agavepy.readthedocs.io/en/latest/JobSummary.json",
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "properties": {
-    "appId": {
-      "description": "The unique name of the application being run by this job. This must be a valid application that the calling user has permission to run.",
-      "type": "string"
-    },
-    "endTime": {
-      "description": "The date the job ended in ISO 8601 format.",
-      "type": "string"
-    },
-    "executionSystem": {
-      "description": "The system id of the execution system.",
-      "type": "string"
-    },
-    "id": {
-      "description": "The unique id of the job.",
-      "type": "string"
-    },
-    "name": {
-      "description": "The name of the job.",
-      "type": "string"
-    },
-    "owner": {
-      "description": "The job owner.",
-      "type": "string"
-    },
-    "startTime": {
-      "description": "The date the job started in ISO 8601 format.",
-      "type": "string"
-    },
-    "status": {
-      "description": "The status of the job. Possible values are: PENDING, STAGING_INPUTS, CLEANING_UP, ARCHIVING, STAGING_JOB, FINISHED, KILLED, FAILED, STOPPED, RUNNING, PAUSED, QUEUED, SUBMITTING, STAGED, PROCESSING_INPUTS, ARCHIVING_FINISHED, ARCHIVING_FAILED",
-      "type": "string"
-    }
-  },
-  "required": [],
-  "title": "AgavePy JobSummary schema",
-  "type": "object"
-}
-```
 
 
