@@ -14,7 +14,7 @@ pip install agavepy
 ```
 The agavepy package is a complete Python binding for TACC’s Agave API. Here, we can create a docker image that contains the python function and executes it as part of the default command.
 
-Now, that we have the Agavepy package install, lets create a docker image that contains the python function and executes it as part of the default command. First create a python fine called `main.py` and paste the sample code below in it.
+Now, that we have the Agavepy package install, lets create a docker image that contains the python function and executes it as part of the default command. First create a python fine called `Example.py` and paste the sample code below in it.
 ```
 def string_count():
     message = "Hey my name is john"
@@ -27,10 +27,10 @@ string_count()
 ```
 Next, create a docker image that contains the python function and executes it as part of the default command. 
 ```
-FROM Scratch
-ADD main.py /main.py
+FROM busybox
+ADD Example.py /Users/kwhitley/PycharmProjects/Test
 
-CMD ["python", "/main.py"]
+CMD ["python", "/Example.py"]
 ```
 
 
