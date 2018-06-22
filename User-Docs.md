@@ -71,10 +71,10 @@ Successfully tagged python_example:latest
 
 Congratulations! you have successfully created your first docker images
 
-# Acotors
+# Actors
 Now that we going to register a docker container as an actor, to do this we have to an API client and once we have this you only have to do the set up once!
 
-Do this excerise we are going to use a a python shell. the default python shell is python 2.7.6 but we want to use python 3.6.
+Do this excerise we are going to use a a python shell. the default python shell is python 2.7.5 but we want to use python 3.6.5
 
  To begin this excerise open your `Terminal`, once you have the terminal open type in the following:
 ```
@@ -88,7 +88,7 @@ pip3
 ```
 if you dont have pip3 install use the following to install it:
 ```
-python3 get-pip.py
+sudo python3 get-pip.py
 ```
 
 #### Pure Python
