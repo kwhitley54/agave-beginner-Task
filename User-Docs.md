@@ -78,17 +78,17 @@ Do this excerise we are going to use a a python shell. the default python shell 
 
  To begin this excerise open your `Terminal`, once you have the terminal open type in the following:
 ```
-Python3
+>>> python3
 ```
 This checks to see if you have python3 install in not please visit the pthon website(https://www.python.org).
 
 Once you have the lastest python next you want to see if you have pip install. Similar to python the buildin version of pip is 2.7 but we want pip3 so you want to type in the follow:
 ```
-pip3
+>>> pip3
 ```
-if you dont have pip3 install use the following to install it:
+If you dont have pip3 install use the following to install it:
 ```
-sudo python3 get-pip.py
+>>> sudo python3 get-pip.py
 ```
 
 #### Pure Python
