@@ -128,7 +128,7 @@ Once you generate a client, you can re-use its key and secret. Clients can be cr
 ...            api_key='kV4XLPhVBAv9RTf7a2QyBHhQAXca',
 ...            api_secret='5EbjEOcyzzIsAAE3vBS7nspVqHQa')
 ```
-The Agave object ` ag` is now configured to talk to all TACC Cloud services. Here's an example: Let's retrieve a the curent user's profile.
+The Agave object ` ag` is now configured to talk to all TACC Cloud services. Here's an example: Let's retrieve a the curent user's **profile**.
 ```
 >>> ag.profiles.get()
 ```
