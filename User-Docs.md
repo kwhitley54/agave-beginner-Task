@@ -71,7 +71,7 @@ Successfully tagged python_example:latest
 
 Congratulations! you have successfully created your first docker images
 
-# Actors
+### Actors
 Now that we going to register a docker container as an actor, to do this we have to an API client and once we have this you only have to do the set up once!
 
 Do this excerise we are going to use a a python shell. the default python shell is python 2.7.5 but we want to use python 3.6.5
@@ -115,5 +115,17 @@ Once the object is instantiated, interact with it according to the API documenta
 ...            username='your username',
 ...            password='your password')
 >>> ag.clients.create(body={'clientName': 'enter a client name'})
+```
+You use the consumerKey and consumerSecret to generate Oauth tokens, which are temporary credentials that you can use in place of putting your real credentials into code that is scripting against the TACC APIs.
+
+### Reuse an existing Oauth client
+Once you generate a client, you can re-use its key and secret. Clients can be created using the Python-based approach illustrated above, via the TACC Cloud CLI `clients-create` command, or by a direct, correctly-structured ` POST` to the clients web service. No matter how you've created a client, setting AgavePy up to use it works the same way:
+```
+>>> from agavepy.agave import Agave
+>>> ag = Agave(api_server='https://api.tacc.utexas.edu',
+...            username='your username', password='your password',
+...            client_name='my_client',
+...            api_key='kV4XLPhVBAv9RTf7a2QyBHhQAXca',
+...            api_secret='5EbjEOcyzzIsAAE3vBS7nspVqHQa')
 ```
 
